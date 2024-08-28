@@ -1,3 +1,3 @@
-This github repo follows mainly tamim shariar subnin's python diye programming shika book series.
+This github repo follows mainly tamim shariar subnin's learn programming with python book series.
 ___________________________________________________________________________________________________________________________________________________________________________________________
 # first.py = ch 2 
