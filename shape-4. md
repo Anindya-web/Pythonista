@@ -1,0 +1,30 @@
+**Shapes Identifier**
+
+This Python program determines the type of quadrilateral (four-sided shape) based on the lengths of its sides.
+
+**Functionality:**
+
+1. **Input:** The program prompts the user to enter the lengths of all four sides (slen1, slen2, slen3, slen4).
+2. **Validation (Implicit):** While not explicitly coded, it's assumed that the user enters valid numerical values (floats).
+3. **Shape Recognition:**
+   - **Square:** If opposite sides are equal (slen1 == slen3 and slen2 == slen4) and all sides are equal (slen1 == slen2 == slen3 == slen4), the program identifies it as a square.
+   - **Rectangle:** If opposite sides are equal but not all sides are equal, the program identifies it as a rectangle.
+   
+**How to Use:**
+
+1. Save the code as a Python file (e.g., `shapes.py`).
+2. Run the program from your terminal: `python shapes.py`
+3. Follow the prompts to enter the side lengths.
+4. The program will display the identified shape ("It's a square." or "It's a rectangle.").
+
+**Example Usage:**
+
+```
+enter the side length 1: 5
+enter the side length 2: 5
+enter the side length 3: 5
+enter the side length 4: 5
+It's a square.
+
+(Run again with different side lengths to see the rectangle output.)
+```
